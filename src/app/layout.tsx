@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
+import { MonetagInPagePush } from "@/components/MonetagInPagePush";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,6 +62,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <div>All measurements are browser-based estimates. Hardware accuracy requires dedicated tools.</div>
           </div>
         </footer>
+        <MonetagInPagePush />
       </body>
     </html>
   );
