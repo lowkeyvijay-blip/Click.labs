@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    monetag: "d9ff31e317a51fdb8f67889b94771a82",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
